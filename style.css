@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+.Earned{
+  color: #4caf50;
+    background-color: #fffdfd;
+    padding: 20px;
+    border-radius: 5%;
+}
+.Available{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5%;
+}
+.Spent{
+  color: #f44336;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5%;
+}
+h1,h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #000000;
+}
+
+span {
+
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+  margin-top: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around ;
+  gap: 10px;
+
+}
+.input, #amount{
+  width: 45%;
+  border-radius: 10px;
+}
+.input, #description{
+ border-radius: 10px;
+ padding: 5px 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(252, 249, 249);
+  cursor: pointer;
+}
+
+.add-income {
+  background-color: #4caf50;
+}
+
+.add-expense {
+  background-color: #f44336;
+}
+h3 {
+  color: #4caf50;
+  display: flex;
+  margin-top: 0px;
+  text-align: center;
+  font-size:30px;
+
+}
+h4 {
+  color: #f44336;
+  display: flex;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 30px;
+
+}
+.transactions {
+  display: relative;
+  justify-content: space-between;
+  padding: 10px 20px;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  
+}
+
+li {
+  background-color: #ffeded;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.income .amount{
+  color: #4caf50;
+}
+.expenses .amount{
+  color: #f44336;
+}
+
+.income-container{
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 1px;
+}
+.expenses-container {
+  display: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  box-shadow: none;
+  margin: 1px;
+}
